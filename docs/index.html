@@ -6,53 +6,114 @@
   <title>JavaScript Slider</title>
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
-  <div class="slider">
-    <div class="slides">
-      <div class="slide">1</div>
-      <div class="slide">2</div>
-      <div class="slide">3</div>
-      <div class="slide ">4</div>
-      <div class="slide">5</div>
-      <div class="slide">6</div>
-      <div class="slide">7</div>
-      <div class="slide">8</div>
-      <div class="slide">9</div>
-      <div class="slide">10</div>
-      <div class="slide">11</div>
-      <div class="slide">12</div>
-      <div class="slide">13</div>
-      <div class="slide">14</div>
-      <div class="slide">15</div>
-      <div class="slide current">16</div>
-      <div class="slide">17</div>
-      <div class="slide">18</div>
-      <div class="slide">19</div>
-      <div class="slide">20</div>
+  <div class="slides myslides slider1">
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Gojoko.svg" alt="" srcset="">
     </div>
-    <div class="controls">
-      <button class="goToPrev">← Prev</button>
-      <button class="goToNext">Next →</button>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/pwc.svg" alt="" srcset=""></div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/07/CareDx.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Bayport.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Gojoko.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/pwc.svg" alt="" srcset=""></div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/07/CareDx.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Bayport.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Gojoko.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/pwc.svg" alt="" srcset=""></div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/07/CareDx.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Bayport.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Gojoko.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/pwc.svg" alt="" srcset=""></div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/07/CareDx.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Bayport.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Gojoko.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/pwc.svg" alt="" srcset=""></div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/07/CareDx.svg" alt="" srcset="">
+    </div>
+    <div class="slide1"><img src="https://www.persistent.com/wp-content/uploads/2020/08/Bayport.svg" alt="" srcset="">
     </div>
   </div>
 
-  <div class="dog-slider">
-    <div class="slides">
-      <div class="slide">0001</div>
-      <div class="slide">0002</div>
-      <div class="slide">0003</div>
-      <div class="slide">0004</div>
-      <div class="slide">0005</div>
-    </div>
-    <div class="controls">
-      <button class="goToPrev">← Prev</button>
-      <button class="goToNext">Next →</button>
-    </div>
+  <div class="captions">
+    <div class="caption active" data-index="0">this is slide no 0001</div>
+    <div class="caption" data-index="1">0002</div>
+    <div class="caption" data-index="2">0003</div>
+    <div class="caption" data-index="3">0004</div>
+    <div class="caption" data-index="4">0005</div>
+    <div class="caption" data-index="5">0006</div>
+    <div class="caption" data-index="6">0007</div>
+    <div class="caption" data-index="7">0008</div>
+    <div class="caption" data-index="8">0009</div>
+    <div class="caption" data-index="9">0010</div>
+    <div class="caption" data-index="10">0011</div>
+    <div class="caption" data-index="11">0012</div>
+    <div class="caption" data-index="12">0013</div>
+    <div class="caption" data-index="13">0014</div>
+    <div class="caption" data-index="14">0015</div>
+    <div class="caption" data-index="15">0016</div>
+    <div class="caption" data-index="16">0017</div>
+    <div class="caption" data-index="17">0018</div>
+    <div class="caption" data-index="18">0019</div>
+    <div class="caption" data-index="19">0020</div>
+
 
   </div>
-  <script src="./sliderindex.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="./sliderindex.js"></script> -->
+  <script>
+    $('.myslides').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplayspeed: 2000,
+    });
+
+    // $('.slider1').on('swipe', function (event, slick, direction) {
+    //   console.log(direction);
+    //   // left
+    // });
+    $('.slider1').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    });
+    $('.slider1').on('afterChange', function (event, slick, currentSlide, nextSlide) {
+      console.log(currentSlide);
+      // $(".caption").attr('data-index', currentSlide).addClass('.active');
+      $('.caption').removeClass('active');
+      $('.caption[data-index=' + currentSlide + ']').addClass('active');
+    }
+    );
+
+    $('.myslides2').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplayspeed: 2000,
+    });
+  </script>
 </body>
 
 </html>
